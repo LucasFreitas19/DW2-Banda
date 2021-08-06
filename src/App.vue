@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <Header/>
+    <Banner/>
   </div>
 </template>
 
 <script>
 
-
 export default {
   name: 'App',
   components : {
-
-    Header
-
+    Header,
+    Banner
+    
   }
- 
 }
-
 import Header from "./components/Header.vue"
+import Banner from "./components/Banner.vue"
+//import Example from "./components/Example.vue"
 </script>
 
 <style>
@@ -30,6 +30,7 @@ font-family: sans-serif
 .container {
 width: 100%;
 max-width: 960px;
+height: 100%;
 display: flex;
 margin: auto;
 flex-wrap: wrap;
