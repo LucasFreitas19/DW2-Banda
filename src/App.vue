@@ -2,6 +2,9 @@
   <div id="app">
     <Header/>
     <Banner/>
+    <Musicas/>
+    <Citacao/>
+    <Agenda/>
   </div>
 </template>
 
@@ -11,12 +14,19 @@ export default {
   name: 'App',
   components : {
     Header,
-    Banner
+    Banner,
+    Musicas,
+    Citacao,
+    Agenda
+    
     
   }
 }
 import Header from "./components/Header.vue"
 import Banner from "./components/Banner.vue"
+import Musicas from "./components/Musicas.vue"
+import Citacao from "./components/Citacao.vue"
+import Agenda from "./components/Agenda.vue"
 //import Example from "./components/Example.vue"
 </script>
 
@@ -38,9 +48,8 @@ flex-wrap: wrap;
 .row {
 display: flex;
 flex-direction: row;
-flex-wrap: nowrap;
+flex-wrap: wrap;
 align-items: center;
-flex: 1;
 width: 100%;
 }
 
