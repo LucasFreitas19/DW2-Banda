@@ -11,9 +11,9 @@
           <p class="Txt_Menu">Mantendo meus pés no chão, minha marra em alta e minha fé em dia</p>
           <nav class="Menu">
             <ul>
-              <li>Home</li>
+              <li><router-link to="/">Home</router-link></li>
               <li>Biografia</li>
-              <li>Noticias</li>
+              <li><router-link to="/noticias">Noticias</router-link></li>
             </ul>
           </nav>
         </div>
@@ -53,12 +53,13 @@ margin-top: -15px;
 .Img_Logo {
   width: 100%;
 }
-.Menu ul li{
+.Menu ul li a{
     padding: 4px 15px;
     letter-spacing: 0.5px;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
+    color:red ;
 }
 .Menu ul{
   list-style: none;

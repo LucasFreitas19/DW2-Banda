@@ -18,8 +18,8 @@
       <div class="row">
         <div class="col-md-10">
           <p class="intro_txt" :class="{ active: activeTxt1 }">
-            Krawk, que vem direto de São Paulo, Osasco conquistou o Brasil nas
-            batalhas de rima da capital. Chegou em campeonatos nacionais e
+            Krawk, vem direto de São Paulo, Osasco e conquistou o Brasil nas
+            batalhas de rima. Chegou em campeonatos nacionais e
             começou a focar em sua carreira musical
           </p>
           <p class="intro_txt p2" :class="{ active: activeTxt2 }">

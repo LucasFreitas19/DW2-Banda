@@ -1,32 +1,17 @@
 <template>
   <div id="app">
-    <Header/>
-    <Banner/>
-    <Musicas/>
-    <Citacao/>
-    <Agenda/>
+
+<router-view />
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'App',
-  components : {
-    Header,
-    Banner,
-    Musicas,
-    Citacao,
-    Agenda
-    
-    
-  }
+  name: 'App'
 }
-import Header from "./components/Header.vue"
-import Banner from "./components/Banner.vue"
-import Musicas from "./components/Musicas.vue"
-import Citacao from "./components/Citacao.vue"
-import Agenda from "./components/Agenda.vue"
+
+
 //import Example from "./components/Example.vue"
 </script>
 
