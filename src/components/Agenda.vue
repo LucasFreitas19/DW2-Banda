@@ -93,7 +93,7 @@ of type and scrambled it to make a type specimen book.`,
 <style>
 .agenda{
 padding: 56px 0px;
-background-color: #E2E2E2;
+background-color: rgb(12, 12, 12);
 width: 100%;
 height : 800px;
 }
@@ -101,9 +101,10 @@ height : 800px;
 align-items: flex-start;
 }
 .agenda .agenda__title{
+  color: rgb(255, 255, 255);
 font-size : 36px;
 padding: 0;
-margin : 0;
+margin: 0;
 }
 .agenda input {
 border-radius : 50px;
@@ -113,4 +114,6 @@ width: 70%;
 height: 30px;
 padding: 4px 14px;
 float: right;
-}</style>
+}
+
+</style>

@@ -25,12 +25,12 @@ export default {
   align-items: center;
 }
 .card h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: #000000;
 }
 .card p {
-  font-size: 14px;
+  font-size: 15px;
   color: #000000;
 }
 .card button {
