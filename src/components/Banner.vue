@@ -83,7 +83,7 @@ export default {
 .banner_content {
   position: relative;
   top: 40%;
-  right: 20%;
+   right: 8%;
 }
 
 .banner_content p {
@@ -115,5 +115,9 @@ export default {
 }
 .active {
   opacity: 1;
+}
+
+.banner_content .row{
+  height: 700px;
 }
 </style>

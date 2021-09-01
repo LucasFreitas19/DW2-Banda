@@ -40,6 +40,12 @@ export default {
           link: "https://youtube.com/playlist?list=PLUmC2ZUmTYuiu9IezDvphrQVpPTSDrLiv",
         },
         {
+          name: "APP",
+          ano: "2021",
+          img: require("../assets/APP.jpg"),
+          link: "https://www.youtube.com/watch?v=5JH_Dhcgzos",
+        },
+        {
           name: "Frio na Barriga",
           ano: "2021",
           img: require("../assets/FrioNaBarriga.jpg"),
@@ -62,12 +68,6 @@ export default {
           ano: "2020",
           img: require("../assets/Ilicitos.jpg"),
           link: "https://www.youtube.com/watch?v=Or4bCIxslyQ",
-        },
-        {
-          name: "Oh Shit",
-          ano: "2020",
-          img: require("../assets/OhShit.jpg"),
-          link: "https://www.youtube.com/watch?v=OEdFpzuskNI",
         },
         {
             name: "Melhor Sozinho",

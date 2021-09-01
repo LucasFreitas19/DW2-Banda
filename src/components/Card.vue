@@ -1,8 +1,8 @@
 <template>
   <div class="card">
-    <h2>{{ title }}</h2>
-    <p>{{ description }}</p>
-    <button>Detalhes</button>
+    <h2 class="card__title">{{ title }}</h2>
+    <p class="card__description">{{ description }}</p>
+    <b-button variant="outline-danger">Detalhe</b-button>
   </div>
 </template>
 <script>
@@ -24,16 +24,16 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-.card h2 {
+.card__title {
   font-size: 20px;
   font-weight: bold;
   color: #000000;
 }
-.card p {
+.card__description {
   font-size: 15px;
   color: #000000;
 }
-.card button {
+.card__btn {
   width: 170px;
   height: 40px;
 
